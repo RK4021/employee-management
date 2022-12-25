@@ -1,0 +1,23 @@
+
+table{
+    @apply table-auto w-full border-2 
+}
+th{
+    @apply text-left bg-black text-white py-2 pl-4
+}
+
+td{
+    @apply py-2 pl-4
+}
+
+
+
+
+tbody tr:nth-child(even){
+    @apply bg-[#eee]
+}
+
+tbody tr{
+    @apply hover:bg-[#333] hover:text-white
+}
+

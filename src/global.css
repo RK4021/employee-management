@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply text-2xl
+}
+
+/* headings */
+
+h1{
+    @apply text-4xl font-bold
+    
+}
+h2{
+    @apply text-3xl font-bold
+}
+h3{
+    @apply text-2xl font-bold
+}
+
+
+/* button */
+
+.btn{
+    @apply text-white text-lg px-2 hover:scale-110 transition duration-300 ease-in-out inline-block;
+}
+
+.btn--lg{
+    @apply  px-6 py-3 text-xl rounded-lg ;
+}
+
+.btn--md{
+    @apply  px-4 py-1 text-xl rounded-lg ;
+}
+
+.btn-primary{
+    @apply bg-blue-400 hover:bg-blue-700 ;
+}
+
+.btn-secondary{
+    @apply bg-green-400 hover:bg-green-700;
+
+}
+.btn-tertiary{
+    @apply bg-red-500 hover:bg-red-700;
+
+}
+
+
+/* input */
+
+input{
+    @apply outline-none border-2 border-green-200 pl-2 text-lg 
+}
+
+/* form entry */
+
+.entry{
+    @apply grid grid-cols-[150px_1fr] mt-2
+}
+
+.girl{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-40%,-70%);
+    height: 120px;
+    width: 120px;
+}
+
+@media screen and (min-width: 1536px) {
+    .girl{
+    
+        height: 200px;
+        width: 200px;
+ }
+
+}
